@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is just a normal example of form of html." >
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>Your Information</h1>
+    <form action="/hemloo.html">
+        <div>
+            <h2>Enter Your Username ⬇️ </h2>
+            <input type="text" id="Username" name="Username" placeholder="Username" required autofocus>
+        </div>
+        <div>
+            <h2>Enter Your Password ⬇️ </h2>
+            <input type="text" id="Password" name="Password" placeholder="Password" required >
+        </div>
+        <div>
+            <H2>Enter Your Gender</H2>
+            <input type="radio" id="Male" name="Gender" value="Male" required >
+            <label for="Male">Male</label>
+            <input type="radio" id="Female" name="Gender" value="Female">
+            <label for="Female">Female</label>
+        </div>
+        <div>
+            <h3>Tick the food you want</h3>
+            <input type="checkbox" id="Food" name="Chapati" value="Yes">
+            <label for="food">Chapati</label>
+            <br>
+            <input type="checkbox" id="Food" name="Dal" value="Yes">
+            <label for="food">Dal</label>
+            <br>
+            <input type="checkbox" id="Food" name="Rice" value="Yes">
+            <label for="food">Rice</label>
+            <br>
+            <input type="checkbox" id="Food" name="Water" value="Yes">
+            <label for="food">Water</label>
+        </div>
+        <div>
+            <h3>Select the time for the Delivery</h3>
+            <select name="Time" id="">
+                <option value="1 Hour">1 Hour</option>
+                <option value="2 Hour">2 Hours</option>
+                <option value="3 Hour">3 Hours</option>
+                <option value="4 Hour">4 Hours</option>
+            </select>
+        </div>
+        <div>
+            <h3>Give Your Feedback</h3>
+            <textarea name="Feedback" id="Feedback" cols="40" rows="10" placeholder="Give us your feedback"
+                required></textarea>
+        </div>
+        <input type="submit">
+    </form>
+</body>
+
+</html>
